@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: burlywood;
+    background-image: url(pink\ tree.png);
+    background-size: cover;
+}
+.container { 
+    background-color: cadetblue;
+     display: inline-block;
+     margin: 18% solid pink;
+     padding: 3%;
+    border:2px solid black;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 12%;
+ } 
+
+table,th,tr,td,caption{
+    border: 1px solid black;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+}
+
+td,th {
+    /* padding-top: 10px; */
+    /* padding-bottom: 1px; */
+    padding: 10px;
+
+}
+
+th {
+    height: 40px;
+    text-align: left;
+}
+tr:hover  {
+    background-color: darkgray;
+    
+}
+td:hover{
+    background-color: beige;
+}
+
+/* tr:hover :nth-child(odd) { */
+    /* background-color: rgb(190, 144, 144); */
+    
+/* } */
+/* table:hover{
+    background-color: rgb(43, 144, 110);
+} */
+caption {
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
